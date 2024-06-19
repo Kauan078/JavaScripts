@@ -7,5 +7,3 @@ const idade = 12;
 
 
 const mensagens =  idade >= 18 ? "Maior de idade" : "Menor de idade";
-
-console.log(mensagens);
