@@ -1,8 +1,22 @@
-const idadePessoa1 = 16;
-const idadePessoa2 = 22;
 
-// &&(and) (e), ||(OU)
-console.log(idadePessoa1 >= 18 && idadePessoa2 >= 18)
-console.log(idadePessoa1 >= 18 || idadePessoa2 >= 18)
+// muito util quando suavariavel possui valores especiicos
 
-console.log(!(idadePessoa1>=18))//retorna se a pessoa é menor de idade
+
+const permissoes = 'aluno'// aluno, professores, adimin
+
+switch(permissoes){
+    case "aluno":
+        console.log("Voce so pode acessar as aulas")
+       break;
+
+   case "professor":
+    console.log("Voce pode adicionar e excluir aular");
+    break;
+
+   case "admin":
+    console.log("Pode fazer oquer quiser");      
+    break;
+    
+   default:
+    console.log("Usuario nao identificado")
+}
